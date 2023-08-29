@@ -1,0 +1,29 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "ChaosOpenMotionTelemetry",
+	"Description": "This plugin provides Motion Telemetry with a Chaos Vehicle component. Can also be caled directly for when not using Chaos Vehicles",
+	"Category": "Other",
+	"CreatedBy": "Andrew Ferguson",
+	"CreatedByURL": "https://github.com/Open-Motion-Telemetry",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "ChaosOpenMotionTelemetry",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "OpenMotionTelemetry",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}
