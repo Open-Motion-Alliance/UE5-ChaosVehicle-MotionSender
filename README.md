@@ -3,7 +3,7 @@
 ## What is it?
 This Unreal Engine plugin simplifies implementing Motion Telemetry output from an Unreal Engine Game.  
 
-[Demo](Web/OpenMotionUnrealTest.gif)
+Click here to see it in action => [Demo](Web/OpenMotionUnrealTest.gif)
 
 _This should work with Unreal Engine 5.1+_
 ## How does it work?
