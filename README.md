@@ -16,7 +16,7 @@ A [FlyPT Mover](https://www.flyptmover.com) profile is included for testing. Thi
 2. Open the Chaos Vehicle Blueprint.
 3. Find the VehicleMovementComponent on the Vehicle
 
-    ![VehicleMovementComponent](web/1.png)
+    ![VehicleMovementComponent](Web/1.png)
 
 4. Change it's `Component Class` to `OpenMotionChaosWheeledVehicleMovementComponent`
 
