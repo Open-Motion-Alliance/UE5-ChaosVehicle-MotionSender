@@ -3,7 +3,7 @@
 ## What is it?
 This Unreal Engine plugin simplifies implementing Motion Telemetry output from an Unreal Engine Game.  
 
-[Demo](web/OpenMotionUnrealTest.gif)
+[Demo](Web/OpenMotionUnrealTest.gif)
 
 _This should work with Unreal Engine 5.1+_
 ## How does it work?
@@ -20,11 +20,11 @@ A [FlyPT Mover](https://www.flyptmover.com) profile is included for testing. Thi
 
 4. Change it's `Component Class` to `OpenMotionChaosWheeledVehicleMovementComponent`
 
-    ![Component Class](web/3.png)
+    ![Component Class](Web/3.png)
 
 5. Set the IP Address and Port you wish to send data to
 
-    ![IP and Port](web/4.png)
+    ![IP and Port](Web/4.png)
 
 With this, basic data should start to send.  
 To customise or add to the Data being sent, modify the `UOpenMotionChaosWheeledVehicleMovementComponent::TickComponent()` function
@@ -59,4 +59,4 @@ Then send the struct with:
 ### Blueprint
 Set up nodes like this, maybe on a Tick function, and wire up the information from your game to the `VehicleData` struct.
 
-![Blueprint](web/5.png)
+![Blueprint](Web/5.png)
